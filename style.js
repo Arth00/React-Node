@@ -3,9 +3,9 @@ import {StyleSheet} from 'react-native';
 
 
 const sty = StyleSheet.create({
-    Cabecalho : {
+    cabecalho : {
       flexDirection : "row",
-      width : 350,
+      width : 370,
       height : 50,
       backgroundColor : "lightgray",
       alignItems : "center",
@@ -41,11 +41,23 @@ const sty = StyleSheet.create({
       marginLeft : 7
     }
     ,
-    form : {
+    form1 : {
       backgroundColor : "lightgray",
       width : 300,
-      height : 400,
+      height : 420,
       marginTop : 50,
+      borderRadius : 34,
+      borderWidth : 2,
+      borderColor : "#ff6610",
+      position : 'relative',
+    },
+     form2 : {
+      backgroundColor : "lightgray",
+      width : 370,
+      height : 455,
+      marginTop : 50,
+      marginRight:20,
+      marginLeft:19,
       borderRadius : 34,
       borderWidth : 2,
       borderColor : "#ff6610",
@@ -85,8 +97,16 @@ const sty = StyleSheet.create({
     marginLeft : 10,
     marginRight : 10,
     borderRadius : 7,
-          
-
-
+  },
+  prod : {
+    flexDirection : 'row',
+    justifyContent: 'center',
+    width : 350,
+    height:35,
+    backgroundColor:'#dee3d9',
+    marginLeft: 10,
+    borderRadius:5
   }
+ 
 })
+export default sty ;
